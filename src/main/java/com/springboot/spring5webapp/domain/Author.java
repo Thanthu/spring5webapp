@@ -30,7 +30,6 @@ public class Author {
 	public Author(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.books = books;
 	}
 
 	public Long getId() {
@@ -89,7 +88,7 @@ public class Author {
 
 	@Override
 	public String toString() {
-		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", books=" + books + "]";
+		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
 	}
 	
 

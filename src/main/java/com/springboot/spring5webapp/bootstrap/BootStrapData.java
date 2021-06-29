@@ -1,7 +1,5 @@
 package com.springboot.spring5webapp.bootstrap;
 
-import java.util.HashSet;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
